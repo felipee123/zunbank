@@ -4,7 +4,8 @@ import Svg, { Path } from "react-native-svg"
 function IconOcultSVG(props:any) {
   return (
     <Svg
-    
+      width={31}
+      height={32}
       viewBox="0 0 32 32"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
