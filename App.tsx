@@ -3,9 +3,7 @@ import Home from "./src/screens/main";
 
 
 export default function App() {
-  return <></>
- 
-   
+  return <Home></Home>
  
 }
 

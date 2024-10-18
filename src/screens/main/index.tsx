@@ -1,8 +1,17 @@
-import { Container, Top ,Main } from "./style"
+import IconUserSVG from "../../../assets/svg/icon-user"
+import { Container, Top ,Main, ContainerIcon, IconUser,  } from "./style"
 
 const Home = () => {
  return <Container>
-    <Top></Top>
+    <Top>
+      <ContainerIcon>
+         <IconUser>
+            <IconUserSVG
+            width={31}
+            height={32}/>
+         </IconUser>
+      </ContainerIcon>
+    </Top>
     <Main></Main>
  </Container>
 }
