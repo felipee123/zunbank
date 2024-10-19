@@ -50,5 +50,25 @@ justify-content: space-between;
 `;
 
 export const Name= styled.Text`
+color:${colors.sencondary};
+font-size: 20px;
+font-family:${colors.fonts.Roboto_700Bold};
+`;
 
+export const ContainerMoney= styled.View`
+ margin:40px;
+
+`;
+
+export const TextAccount= styled.Text`
+color:${colors.fonts.colors};
+font-size: 28px;
+font-family:${colors.fonts.Roboto_500Medium};
+`;
+
+export const TextMoney= styled.Text`
+color:${colors.fonts.colors};
+font-size: 36px;
+font-family:${colors.fonts.Roboto_700Bold};
+margin-top:12px;
 `;
